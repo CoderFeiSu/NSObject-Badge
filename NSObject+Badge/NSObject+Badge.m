@@ -95,7 +95,6 @@ static const char badgeValueViewKey;
 }
 
 
-
 - (UIImageView *)badgeValueView {
     return objc_getAssociatedObject(self, &badgeValueViewKey);
 }

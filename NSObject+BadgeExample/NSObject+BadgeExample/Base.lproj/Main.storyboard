@@ -53,8 +53,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="lxX-3P-0J8" kind="relationship" relationship="viewControllers" id="qTa-H4-89W"/>
-                        <segue destination="I5J-Fc-4Ix" kind="relationship" relationship="viewControllers" id="FYX-v0-xw1"/>
+                        <segue destination="lxX-3P-0J8" kind="relationship" relationship="viewControllers" id="1ox-hg-ebU"/>
+                        <segue destination="I5J-Fc-4Ix" kind="relationship" relationship="viewControllers" id="gFQ-Bf-1NM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sp-GI-dhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -90,11 +90,12 @@
             </objects>
             <point key="canvasLocation" x="1817" y="265"/>
         </scene>
-        <!--最热-->
+        <!--最新-->
         <scene sceneID="c1G-qJ-sRf">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDN-4q-vbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lxX-3P-0J8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="最热" id="3Bb-OW-Her"/>
+                    <tabBarItem key="tabBarItem" title="最新" id="3Bb-OW-Her"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ahh-Bn-cnc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -102,16 +103,16 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="QAz-2K-XLg" kind="relationship" relationship="rootViewController" id="uH0-T3-oz0"/>
+                        <segue destination="QAz-2K-XLg" kind="relationship" relationship="rootViewController" id="B50-ie-AQB"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KDN-4q-vbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-769" y="-299"/>
         </scene>
         <!--最热-->
         <scene sceneID="b7W-JK-5ba">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1HA-Zh-C2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I5J-Fc-4Ix" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="最热" id="E1U-cC-Y9d"/>
                     <toolbarItems/>
@@ -121,10 +122,9 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="h95-bT-RPi" kind="relationship" relationship="rootViewController" id="lIF-1R-uP8"/>
+                        <segue destination="h95-bT-RPi" kind="relationship" relationship="rootViewController" id="XBM-FO-2xE"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1HA-Zh-C2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-769" y="362"/>
         </scene>

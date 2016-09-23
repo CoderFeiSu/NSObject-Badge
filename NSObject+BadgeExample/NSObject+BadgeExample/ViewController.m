@@ -15,20 +15,34 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+   [super viewDidLoad];
 
-    
-//    UIView *view = [self.tabBarItem valueForKeyPath:@"_view"];
-//    view.backgroundColor = [UIColor orangeColor];
+    UIButton *btn = [[UIButton alloc] init];
+    btn.backgroundColor = [UIColor orangeColor];
+    btn.frame = CGRectMake(100, 100, 100, 44);
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
     
 }
 
+
+
+- (void)click:(UIButton *)btn {
+//    self.tabBarItem.title = @"1334";
+
+//    NSLog(@"%@-----%@",self.tabBarItem,self.tabBarController);
+    self.tabBarItem.badgeValue = @"134141";
+    
+}
+
+
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    // Dispose of any resources that can be recreated.
-    self.tabBarItem.badgeValue = @"123";
-    self.tabBarItem.title = @"123";
-    self.view.backgroundColor = [UIColor greenColor];
+//    // Dispose of any resources that can be recreated.
+//    self.tabBarItem.badgeValue = @"123";
+//    self.tabBarItem.title = @"123";
+//    self.view.backgroundColor = [UIColor greenColor];
     
 }
 
